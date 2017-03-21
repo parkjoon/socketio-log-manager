@@ -1,0 +1,32 @@
+{
+  "name": "socketio-log-manager",
+  "version": "1.0.0",
+  "description": "SocketIO Log Manager",
+  "scripts": {
+	"build": "babel src -d dist",
+    "dev": "nodemon src/server.js --exec babel-node",
+	"start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkjoon/socketio-log-manager.git"
+  },
+  "author": "Joon Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parkjoon/socketio-log-manager/issues"
+  },
+  "homepage": "https://github.com/parkjoon/socketio-log-manager#readme",
+  "dependencies": {
+    "babel-cli": "6.24.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-es2015": "6.24.0",
+    "eslint": "3.18.0",
+    "nodemon": "1.11.0",
+    "socket.io": "1.7.3"
+  },
+  "babel": {
+    "presets": [ "es2015" ],
+    "plugins": [ "transform-object-rest-spread" ]
+  }
+}
