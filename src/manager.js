@@ -14,11 +14,6 @@ export default function initializeLogManager(io) {
 			socket.emit(EVENTS.SET_ROOMTYPES, ROOMTYPES);
 		});
 
-		socket.on(EVENTS.GET_TYPES, () => {
-			console.log(`Received event: GET_TYPES from socket id: ${socket.id}`);
-			socket.emit(EVENTS.SET_TYPES, TYPES);
-		});
-
 		socket.on(EVENTS.LOG, log => {
 			console.log(`Received event: LOG from socket id: ${socket.id}`);
 			const relevantRoomNames = getRelevantRoomNames(log.application, log.type);
