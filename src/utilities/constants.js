@@ -1,7 +1,23 @@
 export const APPLICATIONS = [
 	{
+		id: 'ASSESSMENTS',
+		label: 'Assessments'
+	},
+	{
+		id: 'ASSESSMENTS_ADMIN',
+		label: 'Assessments Admin'
+	},
+	{
+		id: 'FORM_CREATOR',
+		label: 'Form Creator'
+	},
+	{
 		id: 'FORM_BUILDER',
 		label: 'Form Builder'
+	},
+	{
+		id: 'FORM_SUBMISSION_ERROR',
+		label: 'Form Submission Error'
 	},
 	{
 		id: 'REPORT_FORM_BUILDER',
