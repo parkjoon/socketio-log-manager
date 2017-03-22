@@ -18,7 +18,7 @@ export default function initializeLogManager(io) {
 			console.log(`Received event: LOG from socket id: ${socket.id}`);
 			const relevantRoomNames = getRelevantRoomNames(log.application, log.type);
 			relevantRoomNames.forEach(relevantRoomName => {
-				io.to(relevantRoomName).emit(log);
+				io.to(relevantRoomName).emit(EVENTS.LOG, log);
 			});
 		});
 
