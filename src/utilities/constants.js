@@ -28,6 +28,11 @@ export const APPLICATIONS = [
 		id: 'REPORT_FORM_BUILDER',
 		icon: 'fa fa-files-o',
 		label: 'Report Form Builder'
+	},
+	{
+		id: 'SERVER',
+		icon: 'fa fa-server',
+		label: 'Server'
 	}
 ];
 
