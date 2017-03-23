@@ -1,26 +1,32 @@
 export const APPLICATIONS = [
 	{
 		id: 'ASSESSMENTS',
+		icon: 'fa fa-commenting-o',
 		label: 'Assessments'
 	},
 	{
 		id: 'ASSESSMENTS_ADMIN',
+		icon: 'fa fa-pencil-square-o',
 		label: 'Assessments Admin'
 	},
 	{
 		id: 'FORM_CREATOR',
+		icon: 'fa fa-file-pdf-o',
 		label: 'Form Creator'
 	},
 	{
 		id: 'FORM_BUILDER',
+		icon: 'fa fa-list-alt',
 		label: 'Form Builder'
 	},
 	{
 		id: 'FORM_SUBMISSION_ERROR',
+		icon: 'fa fa-bug',
 		label: 'Form Submission Error'
 	},
 	{
 		id: 'REPORT_FORM_BUILDER',
+		icon: 'fa fa-files-o',
 		label: 'Report Form Builder'
 	}
 ];
